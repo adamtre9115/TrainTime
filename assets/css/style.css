@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(45deg, #010101, #324565, #5392bd, #cfe4f9) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    color: #d7a942;
+}
