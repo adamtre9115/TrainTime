@@ -48,6 +48,7 @@ $(document).ready(function () {
             console.log(trainFreq);
 
             //  time for frequency and next train minutes away 
+          
         });
 
     });

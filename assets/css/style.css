@@ -1,6 +1,7 @@
 body {
-    background: linear-gradient(45deg, #010101, #324565, #5392bd, #cfe4f9) no-repeat center center;
+    background: url(../images/wallhaven.jpg) center center;
     background-size: cover;
+    color: #f2ecf7;
     height: 100vh;
     font-family: 'Raleway', sans-serif;
 }
@@ -8,3 +9,31 @@ body {
 h1 {
     color: #d7a942;
 }
+
+.card {
+    background: rgba(0, 255, 255, 0.4);
+}
+
+.table thead th {
+    border-bottom: 2px solid #16274e;
+    border-top: 2px solid #16274e;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border: 1px solid #8982ae;
+    /* border-color: #8982ae; */
+    outline: 0 none;
+}
+
+.btn,
+.btn-primary {
+    background-color: #16274e;
+    border: none;
+}
+
+.btn:hover,
+.btn-primary:hover {
+    background-color: #8982ae;
+}
+
